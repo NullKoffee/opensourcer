@@ -8,7 +8,7 @@ def retBanner(ip, port):
         return banner
     except:
             return
-
+# Check if server is vunlerable
 def checkVulns(banner):
     if "FreeFloat FTP Server (Version 1.00)" in banner:
         print "[+] FreeFloat FTP Server is vulnerable."
